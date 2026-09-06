@@ -15,10 +15,10 @@ interface PaymentPageProps {
 }
 
 const PAYMENT_DETAILS = {
-  amount: "₦25,450",
-  accountNumber: "2082648424",
-  bankName: "KUDA",
-  accountName: "ADEWALE AFUWAJOYE",
+  amount: "₦15,500",
+  accountNumber: "9045937896",
+  bankName: "MOREMONEE",
+  accountName: "OMOTOYE ADELEKE",
 }
 
 export function PaymentPage({ onSubmit, onBack, isSaving = false, saveError = null }: PaymentPageProps) {
